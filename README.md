@@ -8,6 +8,9 @@ This project is a Django web application that serves as an API for managing a li
   - URL: [http://127.0.0.1:8000/api/books](http://127.0.0.1:8000/api/books)
   - Description: This endpoint provides a list of books in the API.
 
+  - URL: [http://127.0.0.1:8000/api/books/<int:pk>](http://127.0.0.1:8000/api/books/<int:pk>)
+  - Description: This endpoint provides a single book in the API.
+
 ### Getting Started
 
 1. Clone the repository.
